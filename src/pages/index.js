@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import Footer from '../components/footer'
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
@@ -37,6 +38,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <Footer />
       </Layout>
     )
   }
