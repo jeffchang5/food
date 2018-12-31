@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Food Blog`,
     author: `Jeffrey Chang`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A food and travel blog of places I've been.`,
     siteUrl: `https://travel.jeffchang.io/`,
   },
   plugins: [
